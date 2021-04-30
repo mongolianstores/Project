@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Crunch</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="/css/app.css">
+</head>
+
+<body>
+    <nav class="container mx-auto flex items-center justify-between py-4">
+        <div>
+            <a href="/"><img style="width: 100px;height: 85px;" src="/img/logo.png" alt="logo"></a>
+        </div>
+        <div>
+            <ul class="flex items-center">
+                <li class="ml-6"><a href="/">Home</a></li>
+                <li class="ml-6"><a href="/">Products</a></li>
+
+                <% if(user) { %>
+                    <li class="ml-6"><a href="/<%=user.role%>/orders">Order</a></li>
+                    <li class="ml-6">
+                        <form id="logout" action="/logout" method="POST">
+                            <a onclick="document.getElementById('logout').submit()" href="#">Logout</a>
+                        </form>
+                    </li>
+                    <% } else { %>
+                        <li class="ml-6"><a href="/register">Register</a></li>
+                        <li class="ml-6"><a href="/login">Login</a></li>
+                        <% } %>
+                            <li class="ml-6"><a href="/cart"
+                                    class="inline-block px-4 py-2 rounded-full flex items-center">
+                                    <span id="cartCounter" class="text-white font-bold pr-2">
+                                        <%= session.cart ? session.cart.totalQty : '' %>
+                                    </span>
+                                    <img src="/img/cart.png" alt="">
+                                </a></li>
+            </ul>
+        </div>
+    </nav>
+    <%- body %>
+    
+
+   
+<!--Brands-->
+
+<div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <img src="/img/logo-godrej.png">
+            </div>
+            <div class="col-5">
+                <img src="/img/logo-oppo.png">
+            </div>
+            <div class="col-5">
+                <img src="/img/logo-coca-cola.png">
+            </div>
+            <div class="col-5">
+                <img src="/img/logo-paypal.png">
+            </div>
+            <div class="col-5">
+                <img src="/img/logo-philips.png">
+            </div>
+        </div>
+    </div>
+</div>
+     
+
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="/js/app.js"></script>
+       
+    <!---Footer-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                
+                <p>Download App for Andriod and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="/img/play-store.png">
+                    <img src="/img/app-store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="/img/1.jfif" alt="">
+                <p>We provide brandad products with decent price .
+                    We have shoping easy
+                </p>
+               
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Cupons</li>
+                    <li>Blog Post</li>
+                    <li>Return policy</li>
+                    <li>Join Affilitate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instahgram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+
+
+
+</html>
