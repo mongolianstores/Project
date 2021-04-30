@@ -1,0 +1,97 @@
+[{
+  "_id": {
+    "$oid": "5eee651f739f8c674fd736ee"
+  },
+  "name": "T-shirt",
+  "image": "product-1.jpg",
+  "price": "250",
+  "category": "clothing"
+},{
+  "_id": {
+    "$oid": "608961b43d00c21b5889cd26"
+  },
+  "name": "Fila shoes",
+  "image": "product-2.jpg",
+  "price": "770",
+  "category": "shoes"
+},{
+  "_id": {
+    "$oid": "608961e33d00c21b5889cd27"
+  },
+  "name": "Track pants",
+  "image": "product-3.jpg",
+  "price": "400",
+  "category": "clothing"
+},{
+  "_id": {
+    "$oid": "608962193d00c21b5889cd28"
+  },
+  "name": "T-shirt blue",
+  "image": "product-4.jpg",
+  "price": "550",
+  "category": "clothing"
+},{
+  "_id": {
+    "$oid": "608962553d00c21b5889cd29"
+  },
+  "name": "addidas shoes",
+  "image": "product-5.jpg",
+  "price": "990",
+  "category": "shoes"
+},{
+  "_id": {
+    "$oid": "608962783d00c21b5889cd2a"
+  },
+  "name": "T-shirt black",
+  "image": "product-6.jpg",
+  "price": "560",
+  "category": "clothing"
+},{
+  "_id": {
+    "$oid": "608962983d00c21b5889cd2b"
+  },
+  "name": "socks",
+  "image": "product-7.jpg",
+  "price": "99",
+  "category": "socks"
+},{
+  "_id": {
+    "$oid": "608962d43d00c21b5889cd2c"
+  },
+  "name": "titan watch",
+  "image": "product-8.jpg",
+  "price": "890",
+  "category": "watch"
+},{
+  "_id": {
+    "$oid": "608979c33d00c21b5889cd2d"
+  },
+  "name": "bata shoe",
+  "image": "product-10.jpg",
+  "price": "999",
+  "category": "shoes"
+},{
+  "_id": {
+    "$oid": "608979f43d00c21b5889cd2e"
+  },
+  "name": "vivi watch",
+  "image": "product-9.jpg",
+  "price": "999",
+  "category": "watch"
+},{
+  "_id": {
+    "$oid": "60897a3d3d00c21b5889cd2f"
+  },
+  "name": "dodo shoe",
+  "image": "product-11.jpg",
+  "price": "999",
+  "category": "shoes"
+},{
+  "_id": {
+    "$oid": "60897a823d00c21b5889cd30"
+  },
+  "name": "black jeans",
+  "image": "product-12.jpg",
+  "price": "450",
+  "category": "clothing"
+}]
