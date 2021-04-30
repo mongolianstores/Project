@@ -1,0 +1,289 @@
+[{
+  "_id": {
+    "$oid": "6089adb056189c46e483915a"
+  },
+  "paymentType": "COD",
+  "paymentStatus": false,
+  "status": "Shipped",
+  "customerId": {
+    "$oid": "608911869aa87020803e073b"
+  },
+  "items": {
+    "5eee651f739f8c674fd736ee": {
+      "item": {
+        "_id": "5eee651f739f8c674fd736ee",
+        "name": "T-shirt",
+        "image": "product-1.jpg",
+        "price": 250,
+        "category": "clothing"
+      },
+      "qty": 1
+    },
+    "608961b43d00c21b5889cd26": {
+      "item": {
+        "_id": "608961b43d00c21b5889cd26",
+        "name": "Fila shoes",
+        "image": "product-2.jpg",
+        "price": 770,
+        "category": "shoes"
+      },
+      "qty": 1
+    }
+  },
+  "phone": "+9776284036413",
+  "address": "JWAGAL",
+  "createdAt": {
+    "$date": "2021-04-28T18:47:12.417Z"
+  },
+  "updatedAt": {
+    "$date": "2021-04-28T19:04:29.352Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6089c78cda56043754f542d6"
+  },
+  "paymentType": "COD",
+  "paymentStatus": false,
+  "status": "Shipped",
+  "customerId": {
+    "$oid": "608911869aa87020803e073b"
+  },
+  "items": {
+    "608961b43d00c21b5889cd26": {
+      "item": {
+        "_id": "608961b43d00c21b5889cd26",
+        "name": "Fila shoes",
+        "image": "product-2.jpg",
+        "price": 770,
+        "category": "shoes"
+      },
+      "qty": 1
+    },
+    "608962553d00c21b5889cd29": {
+      "item": {
+        "_id": "608962553d00c21b5889cd29",
+        "name": "addidas shoes",
+        "image": "product-5.jpg",
+        "price": 990,
+        "category": "shoes"
+      },
+      "qty": 1
+    }
+  },
+  "phone": "+9779861609685",
+  "address": "JWAGAL",
+  "createdAt": {
+    "$date": "2021-04-28T20:37:32.492Z"
+  },
+  "updatedAt": {
+    "$date": "2021-04-28T20:38:00.272Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6089cef7ce370827e0d20d71"
+  },
+  "paymentType": "COD",
+  "paymentStatus": false,
+  "status": "confirmed",
+  "customerId": {
+    "$oid": "6089ced1ce370827e0d20d70"
+  },
+  "items": {
+    "5eee651f739f8c674fd736ee": {
+      "item": {
+        "_id": "5eee651f739f8c674fd736ee",
+        "name": "T-shirt",
+        "image": "product-1.jpg",
+        "price": 250,
+        "category": "clothing"
+      },
+      "qty": 1
+    },
+    "608962553d00c21b5889cd29": {
+      "item": {
+        "_id": "608962553d00c21b5889cd29",
+        "name": "addidas shoes",
+        "image": "product-5.jpg",
+        "price": 990,
+        "category": "shoes"
+      },
+      "qty": 1
+    }
+  },
+  "phone": "+9779861609685",
+  "address": "JWAGAL",
+  "createdAt": {
+    "$date": "2021-04-28T21:09:11.306Z"
+  },
+  "updatedAt": {
+    "$date": "2021-04-29T03:56:51.931Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "608a3a2927ab100d3850c50b"
+  },
+  "paymentType": "COD",
+  "paymentStatus": false,
+  "status": "shipped",
+  "customerId": {
+    "$oid": "6089ced1ce370827e0d20d70"
+  },
+  "items": {
+    "5eee651f739f8c674fd736ee": {
+      "item": {
+        "_id": "5eee651f739f8c674fd736ee",
+        "name": "T-shirt",
+        "image": "product-1.jpg",
+        "price": 250,
+        "category": "clothing"
+      },
+      "qty": 2
+    },
+    "608962553d00c21b5889cd29": {
+      "item": {
+        "_id": "608962553d00c21b5889cd29",
+        "name": "addidas shoes",
+        "image": "product-5.jpg",
+        "price": 990,
+        "category": "shoes"
+      },
+      "qty": 1
+    }
+  },
+  "phone": "+9779861609645",
+  "address": "JWAGAL",
+  "createdAt": {
+    "$date": "2021-04-29T04:46:33.869Z"
+  },
+  "updatedAt": {
+    "$date": "2021-04-29T04:50:14.743Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "608a3ca4f901151d8cb5a5ec"
+  },
+  "paymentType": "COD",
+  "paymentStatus": false,
+  "status": "order_placed",
+  "customerId": {
+    "$oid": "608a3c8bf901151d8cb5a5eb"
+  },
+  "items": {
+    "5eee651f739f8c674fd736ee": {
+      "item": {
+        "_id": "5eee651f739f8c674fd736ee",
+        "name": "T-shirt",
+        "image": "product-1.jpg",
+        "price": 250,
+        "category": "clothing"
+      },
+      "qty": 3
+    }
+  },
+  "phone": "+9776284036410",
+  "address": "JWAGAL",
+  "createdAt": {
+    "$date": "2021-04-29T04:57:08.648Z"
+  },
+  "updatedAt": {
+    "$date": "2021-04-29T04:57:08.648Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "608a41d791c8782eb8d4586b"
+  },
+  "paymentType": "COD",
+  "paymentStatus": false,
+  "status": "processing",
+  "customerId": {
+    "$oid": "608a3c8bf901151d8cb5a5eb"
+  },
+  "items": {
+    "5eee651f739f8c674fd736ee": {
+      "item": {
+        "_id": "5eee651f739f8c674fd736ee",
+        "name": "T-shirt",
+        "image": "product-1.jpg",
+        "price": 250,
+        "category": "clothing"
+      },
+      "qty": 1
+    }
+  },
+  "phone": "+9779861609685",
+  "address": "JWAGAL",
+  "createdAt": {
+    "$date": "2021-04-29T05:19:19.221Z"
+  },
+  "updatedAt": {
+    "$date": "2021-04-29T06:01:09.960Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "608a4364c68e49180455bde1"
+  },
+  "paymentType": "COD",
+  "paymentStatus": false,
+  "status": "completed",
+  "customerId": {
+    "$oid": "608911869aa87020803e073b"
+  },
+  "items": {
+    "608962983d00c21b5889cd2b": {
+      "item": {
+        "_id": "608962983d00c21b5889cd2b",
+        "name": "socks",
+        "image": "product-7.jpg",
+        "price": 99,
+        "category": "socks"
+      },
+      "qty": 1
+    }
+  },
+  "phone": "+9776284036413",
+  "address": "JWAGAL",
+  "createdAt": {
+    "$date": "2021-04-29T05:25:56.150Z"
+  },
+  "updatedAt": {
+    "$date": "2021-04-29T05:46:40.045Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "608a4bbf60916a3e0ce7fe96"
+  },
+  "paymentType": "COD",
+  "paymentStatus": false,
+  "status": "order_placed",
+  "customerId": {
+    "$oid": "608911869aa87020803e073b"
+  },
+  "items": {
+    "608962d43d00c21b5889cd2c": {
+      "item": {
+        "_id": "608962d43d00c21b5889cd2c",
+        "name": "titan watch",
+        "image": "product-8.jpg",
+        "price": 890,
+        "category": "watch"
+      },
+      "qty": 1
+    }
+  },
+  "phone": "+9779861609685",
+  "address": "JWAGAL",
+  "createdAt": {
+    "$date": "2021-04-29T06:01:35.064Z"
+  },
+  "updatedAt": {
+    "$date": "2021-04-29T06:01:35.064Z"
+  },
+  "__v": 0
+}]
