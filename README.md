@@ -44,7 +44,7 @@ Passsword:asdfghjkl;'
 ```
 
 
-<img  src="https://img.icons8.com/color/48/000000/nodejs.png"/>  &nbsp;  <img  src="https://img.icons8.com/fluent/48/000000/mongodb-logo.png"/>  &nbsp;
+<img  src="https://img.icons8.com/color/48/000000/nodejs.png"/>  &nbsp;  <img src="https://img.icons8.com/color/48/000000/mongodb.png"/> &nbsp;
 
 ### Other technologies:
 - ExpressJS
