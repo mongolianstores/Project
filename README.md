@@ -42,3 +42,9 @@ Import given products from user.json file given in the repository
 User email:admin@gmail.com
 Passsword:asdfghjkl;'
 ```
+
+
+<img  src="https://img.icons8.com/color/48/000000/nodejs.png"/>  &nbsp;  <img  src="https://img.icons8.com/fluent/48/000000/mongodb-logo.png"/>  &nbsp;
+
+### Other technologies:
+- ExpressJS
