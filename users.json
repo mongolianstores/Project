@@ -1,76 +1,18 @@
-[{
-  "_id": {
-    "$oid": "608911869aa87020803e073b"
-  },
-  "role": "customer",
-  "name": "tejenpradhan",
-  "email": "tejenpradhan1@gmail.com",
-  "password": "$2b$10$PmKqvlyIkjQNxeDt8CwJPOhwKwdFFfgx9IuYnlhzxLtxzNumCKtc6",
-  "createdAt": {
-    "$date": "2021-04-28T07:40:54.435Z"
-  },
-  "updatedAt": {
-    "$date": "2021-04-28T07:40:54.435Z"
-  },
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "608911ace458ad404cbd639e"
-  },
-  "role": "admin",
-  "name": "admin",
-  "email": "admin@gmail.com",
-  "password": "$2b$10$PmKqvlyIkjQNxeDt8CwJPOhwKwdFFfgx9IuYnlhzxLtxzNumCKtc6",
-  "createdAt": {
-    "$date": "2021-04-28T07:40:54.435Z"
-  },
-  "updatedAt": {
-    "$date": "2021-04-28T07:40:54.435Z"
-  },
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "608987df6334cc383c6acd3c"
-  },
-  "role": "customer",
-  "name": "tejenprasadpradhan",
-  "email": "tejenprasadpradhan.bt19cse@pec.edu.in",
-  "password": "$2b$10$G1L9eIWOEqEnWHzWPTNE7u/5gkL5fu34VsWt8Tv2wwXWB./q2OMkS",
-  "createdAt": {
-    "$date": "2021-04-28T16:05:51.195Z"
-  },
-  "updatedAt": {
-    "$date": "2021-04-28T16:05:51.195Z"
-  },
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "6089ced1ce370827e0d20d70"
-  },
-  "role": "customer",
-  "name": "tejen",
-  "email": "tejenpradhan8@gmail.com",
-  "password": "$2b$10$A/bfRGo1wODkXckAWwTSTOQf.2UCXgnp/f0zwSBBrXaRfi/GUWWwS",
-  "createdAt": {
-    "$date": "2021-04-28T21:08:33.024Z"
-  },
-  "updatedAt": {
-    "$date": "2021-04-28T21:08:33.024Z"
-  },
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "608a3c8bf901151d8cb5a5eb"
-  },
-  "role": "customer",
-  "name": "example",
-  "email": "example@gmail.com",
-  "password": "$2b$10$RWnzuRLaYwj9RK4rS3uRju1eOMx1jLgeQbZQnIsS3qwZwpszge9Yi",
-  "createdAt": {
-    "$date": "2021-04-29T04:56:43.677Z"
-  },
-  "updatedAt": {
-    "$date": "2021-04-29T04:56:43.677Z"
-  },
-  "__v": 0
-}]
+[
+  {
+    "_id": {
+      "$oid": "608911ace458ad404cbd639e"
+    },
+    "role": "admin",
+    "name": "admin",
+    "email": "admin@gmail.com",
+    "password": "$2b$10$PmKqvlyIkjQNxeDt8CwJPOhwKwdFFfgx9IuYnlhzxLtxzNumCKtc6",
+    "createdAt": {
+      "$date": "2021-04-28T07:40:54.435Z"
+    },
+    "updatedAt": {
+      "$date": "2021-04-28T07:40:54.435Z"
+    },
+    "__v": 0
+  }
+]
